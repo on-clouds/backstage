@@ -46,7 +46,6 @@ backstage:
   # contains BACKSTAGE_GITHUB_TOKEN, BACKSTAGE_GITHUB_CLIENT_ID, BACKSTAGE_GITHUB_CLIENT_SECRET
   secretName: ""
 
-
   groups:
   - name: admin
     children: []
@@ -54,6 +53,11 @@ backstage:
   users:
   - name: admin
     memberOf: [ admin ]
+
+  catalog:
+    github:
+    - name: "backstage"
+      organization: "backstage"
 
 service:
   type: ClusterIP

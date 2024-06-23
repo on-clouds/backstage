@@ -113,8 +113,6 @@ catalog:
   rules:
     - allow: [Component, System, API, Resource, Location, Template]
   locations:
-    # Local example data, file locations are relative to the backend process, typically `packages/backend`
-
     # Local example organizational data
     - type: file
       target: config/org.yaml

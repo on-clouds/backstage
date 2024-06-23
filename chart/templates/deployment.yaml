@@ -31,16 +31,23 @@ spec:
         - name: org-config
           configMap:
             name: backstage-org-config
+        - name: app-config
+          configMap:
+            name: backstage-app-config
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
-            readOnlyRootFilesystem: true
             runAsNonRoot: true
             runAsUser: 1000
             runAsGroup: 1000
             privileged: false
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          {{- if .Values.backstage.secretName }}
+          envFrom:
+            - secretRef:
+                name: {{ .Values.backstage.secretName }}
+          {{- end }}
           ports:
             - name: backstage
               containerPort: 7007
@@ -48,16 +55,20 @@ spec:
           livenessProbe:
             httpGet:
               path: /
-              port: http
+              port: backstage
           readinessProbe:
             httpGet:
               path: /
-              port: http
+              port: backstage
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:
           - name: org-config
             mountPath: /app/config/org.yaml
+            subPath: org.yaml
+          - name: app-config
+            mountPath: /app/app-config.yaml
+            subPath: app-config.yaml
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
