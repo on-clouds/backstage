@@ -12,7 +12,8 @@
         "deploy/manifest.yaml",
         "chart/Chart.yaml",
         "chart/values.yaml",
-        "container/manifests/deployment.yaml"
+        "container/manifests/deployment.yaml",
+        "backend/package.json"
       ],
       "changelog-sections": [
         {
