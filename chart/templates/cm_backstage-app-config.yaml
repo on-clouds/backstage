@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backstage-app-config
+data:
+  app-config.yaml: |-
+    app:
+      baseUrl: {{ .Values.backstage.baseUrl }}
+      title: {{ .Values.backstage.title }}
+    listen:
+      port: {{ .Values.backstage.port }}
+    csp:
+      connect-src: ["'self'", 'http:', 'https:']
+    cors:
+      origin: {{ .Values.backstage.baseUrl }}:{{ .Values.backstage.port }}
+      methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
+      credentials: true
+    database:
+      client: better-sqlite3
+      connection: ':memory:'
+    integrations:
+      github:
+      - host: github.com
+        {{ if .Values.backstage.secretName }}
+        token: ${BACKSTAGE_GITHUB_TOKEN}
+        {{ end }}
+      auth:
+        providers:
+          {{ if and (eq .Values.backstage.authProvider "github") ( .Values.backstage.secretName ) }}
+          github:
+            development:
+              clientId: ${BACKSTAGE_GITHUB_CLIENT_ID}
+              clientSecret: ${BACKSTAGE_GITHUB_CLIENT_SECRET}
+          {{ end }}
+
+
