@@ -8,6 +8,6 @@ metadata:
     github.com/project-slug: on-clouds/backstage 
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: library
+  type: service
   owner: platform-team
   lifecycle: experimental

@@ -8,11 +8,12 @@ data:
     {{- range $i, $group := .Values.backstage.groups }}
     ---
     apiVersion: backstage.io/v1alpha1
-    kind: User
+    kind: Group
     metadata:
       name: {{ $group.name }}
     spec:
-      memberOf: {{ $group.children }}
+      type: team
+      children: {{ $group.children }}
     {{- end }}
 
     {{- range $i, $user := .Values.backstage.users }}
