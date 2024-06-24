@@ -9,4 +9,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: library
+  owner: platform-team
   lifecycle: experimental
