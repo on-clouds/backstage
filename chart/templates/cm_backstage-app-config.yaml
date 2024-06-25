@@ -47,6 +47,17 @@ data:
         {{ end }}
     catalog:
       providers:
+        {{ if and (eq .Values.backstage.authProvider "github") ( .Values.backstage.secretName ) }}
+        githubOrg:
+          id: production
+          githubUrl: https://github.com
+          token: ${BACKSTAGE_GITHUB_TOKEN}
+          orgs: [ '\${BACKSTAGE_GITHUB_ORG:-backstage}\' ]
+          schedule:
+            initialDelay: { seconds: 30 }
+            frequency: { hours: 1 }
+            timeout: { minutes: 50 }
+        {{- end }}
         github:
           {{- range $i, $org := .Values.backstage.catalog.github }}
           {{ $org.name }}:
@@ -58,9 +69,9 @@ data:
               repository: '.*' # Regex
             schedule: # same options as in TaskScheduleDefinition
                # supports cron, ISO duration, "human duration" as used in code
-              frequency: { minutes: 3 }
+              frequency: { minutes: 5 }
                # supports ISO duration, "human duration" as used in code      - type: file
-              timeout: { minutes: 1 }
+              timeout: { minutes: 2 }
            {{- end }}
       import:
         entityFilename: catalog-info.yaml
