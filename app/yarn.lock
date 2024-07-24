@@ -2151,11 +2151,11 @@
     react-use "^17.2.4"
 
 "@backstage/app-defaults@^1.5.6":
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.8.tgz#701b23e81f8f4f1e284023f5f64fd193ed7478e4"
-  integrity sha512-jryqpLUNMHGKeNlsIUG4DmxlMFZiTcHF8lHNY/YzNAhKgJ77kmSwq0amP8mhoTDItdtMbESoHJAiW5D2vmx78A==
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.9.tgz#1d44ec1f2cb951227d4b6f5d53a867f02bf179c1"
+  integrity sha512-NLvJFcclXHJEpWuq0om7ndslQdRnGiKFbLj9KG6QX4jxVynMDln3RySL1wNkPJEfxWiRbZNbiLCbfWrZOXJZGw==
   dependencies:
-    "@backstage/core-app-api" "^1.14.0"
+    "@backstage/core-app-api" "^1.14.1"
     "@backstage/core-components" "^0.14.9"
     "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/plugin-permission-react" "^0.4.24"
@@ -2595,10 +2595,10 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.12.6", "@backstage/core-app-api@^1.14.0":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.14.0.tgz#1b727046fddaffcf5b417c543a869ebeacb2c80f"
-  integrity sha512-fW1o0QHbe7fVWvI6sOcPkH9eSnXcQ/643zUg4BhJohANh5LiWXgB0zLUv+zNUy1ch2dtWo0Do022FPzTKfEdcA==
+"@backstage/core-app-api@^1.12.6", "@backstage/core-app-api@^1.14.1":
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.14.1.tgz#d998ba2b9b2fd80db762a933c5e2d9985c14c1ac"
+  integrity sha512-I3Hbc36dTjKNL5yhY16yNamv1nFxfzDxd6Y42apDq+IEAueZrodR/+qCeMq2QtcpZ9GOfowKoJhccA8GMUXpQQ==
   dependencies:
     "@backstage/config" "^1.2.0"
     "@backstage/core-plugin-api" "^1.9.3"
@@ -4228,11 +4228,11 @@
   integrity sha512-1zLm0746Oay5SaT6B/ydrMzMxQQO0G415T9IAo8np0nbwkFQM69VtXYDz6J0S0oZMkfPqlpV7mIJyrJrPZdjxQ==
 
 "@backstage/plugin-user-settings@^0.8.7":
-  version "0.8.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.9.tgz#d68b743f8fd7c9a22a422e739e80f64d91bb9dcf"
-  integrity sha512-AGbXRTkr1sHAoL0AWdEurksRTo887fPGiv5cZmVxwEsWvkOrpesaEiIasHvUG34xSjCNNqALQgIubpnfw2VACQ==
+  version "0.8.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.10.tgz#80bd8313b8a7b6bc3c8c6bebaee2dfe62a8b5b70"
+  integrity sha512-xArI0L02m0p5qs7AmEjKDtGSo9VekX6aSSW7JHrF1oUa3nDwuKqBFwYFPYvL6r4BFQ1amGoUrAWU/ntxl/Nu5g==
   dependencies:
-    "@backstage/core-app-api" "^1.14.0"
+    "@backstage/core-app-api" "^1.14.1"
     "@backstage/core-compat-api" "^0.2.7"
     "@backstage/core-components" "^0.14.9"
     "@backstage/core-plugin-api" "^1.9.3"
@@ -4258,12 +4258,12 @@
     cross-fetch "^4.0.0"
 
 "@backstage/test-utils@^1.5.6":
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.8.tgz#93e2999519642936ff95e1ad69c54749cd0b2c9b"
-  integrity sha512-ysTaLMAjWguBKE2Whl4aNYkESbZhDySP+Ik8yhUgGseOGRVZ3oxA0qgYNN7kDwjj4oEflm5yCJC8VOUwGRusVg==
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.9.tgz#397959c30598d2e5cab0b62a3ccfbc2db263d3a5"
+  integrity sha512-m/9dPrseTJRZ0Scu6lKt5K+GWTAI5An/2CtvthCZ7RuN4TVKRLFhL46QY+xjEkObjK4c6XCC3MUFEjHN00KZag==
   dependencies:
     "@backstage/config" "^1.2.0"
-    "@backstage/core-app-api" "^1.14.0"
+    "@backstage/core-app-api" "^1.14.1"
     "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/plugin-permission-common" "^0.8.0"
     "@backstage/plugin-permission-react" "^0.4.24"
