@@ -2142,9 +2142,9 @@
     to-fast-properties "^2.0.0"
 
 "@backstage-community/plugin-tech-radar@^0.7.4":
-  version "0.7.8"
-  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-0.7.8.tgz#47bcb2cddf1990fc6e56f8dbc8aad43f68899e08"
-  integrity sha512-9iaVFrUGqOFxTxYAkZv9B1+cDWZ4ntwxSAVOUgysDP28BYavo54VmsvBCq/8S86KIllWHtT95rx0PfAXeJAI/g==
+  version "0.7.9"
+  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-0.7.9.tgz#d78da185ecfb4960401a95730f3c9fa1dc3f83a5"
+  integrity sha512-3dbnp2nNHxacX40C9kMdfIFHi5QgvdijU7z6xhT3BK2WQ1tU/J/d0lRZ4yPOPGKUk5KZSSH7xcM6oyzXOnsBBg==
   dependencies:
     "@backstage/core-compat-api" "^0.2.8"
     "@backstage/core-components" "^0.14.10"
