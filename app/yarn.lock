@@ -2117,14 +2117,14 @@
     to-fast-properties "^2.0.0"
 
 "@backstage-community/plugin-tech-radar@^0.7.4":
-  version "0.7.9"
-  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-0.7.9.tgz#d78da185ecfb4960401a95730f3c9fa1dc3f83a5"
-  integrity sha512-3dbnp2nNHxacX40C9kMdfIFHi5QgvdijU7z6xhT3BK2WQ1tU/J/d0lRZ4yPOPGKUk5KZSSH7xcM6oyzXOnsBBg==
+  version "0.7.10"
+  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-0.7.10.tgz#267e6de3faa5452214e36f6374274fe02fd627cf"
+  integrity sha512-MUSubSTjguhjWGGDIv/MTb1oibd5hbavcvBORvbKWfcIByQiyN0rqQAEMvUQ+kdP8mJfHnxKpeIFFcMMqcLKPQ==
   dependencies:
-    "@backstage/core-compat-api" "^0.2.8"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/frontend-plugin-api" "^0.7.0"
+    "@backstage/core-compat-api" "^0.3.0"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
+    "@backstage/frontend-plugin-api" "^0.8.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
@@ -2714,17 +2714,6 @@
     "@backstage/version-bridge" "^1.0.8"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/core-compat-api@^0.2.8":
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.2.8.tgz#438ffaf8a615247d2c3b90e7bcae08f7c65d3849"
-  integrity sha512-nHZmn8O2ik+H1IZxRq/giFCFUOwlvbHzqekHrgaCe8yC6n05JnOYeHtNN23s8AE5AM3v3veUkZmk0TXcKtOJlg==
-  dependencies:
-    "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/frontend-plugin-api" "^0.7.0"
-    "@backstage/version-bridge" "^1.0.8"
-    "@types/react" "^16.13.1 || ^17.0.0"
-    lodash "^4.17.21"
-
 "@backstage/core-compat-api@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.3.0.tgz#ec4f0da0cd683230867db23604a3eadf701da415"
@@ -2864,21 +2853,6 @@
   integrity sha512-9SfDjOF9d8hkMCEjiwT5PDgPBjXLgwo5WzmEF1/h3aQ9T7J/ys65sjAgGHmGydfaW/jdWxabsfZeSFfIQly+3g==
   dependencies:
     "@backstage/core-components" "^0.14.8"
-    "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/types" "^1.1.1"
-    "@backstage/version-bridge" "^1.0.8"
-    "@material-ui/core" "^4.12.4"
-    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
-    lodash "^4.17.21"
-    zod "^3.22.4"
-    zod-to-json-schema "^3.21.4"
-
-"@backstage/frontend-plugin-api@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.7.0.tgz#b4ff5180cb09e014d10607014d019588ba884dac"
-  integrity sha512-ULRmn5lndMY9Fow9wiDmi1S4vNJjsoZS62bk3KRavOloaijKq4WSq1Uj1KiJdujRWOPhdJ1EKdS1l9MQbm7xaA==
-  dependencies:
-    "@backstage/core-components" "^0.14.10"
     "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.8"
