@@ -37,7 +37,7 @@
     "@backstage/plugin-scaffolder-backend": "^1.22.10",
     "@backstage/plugin-search-backend": "^1.5.12",
     "@backstage/plugin-search-backend-module-catalog": "^0.2.0",
-    "@backstage/plugin-search-backend-module-techdocs": "^0.2.0",
+    "@backstage/plugin-search-backend-module-techdocs": "^0.3.0",
     "@backstage/plugin-search-backend-node": "^1.2.25",
     "@backstage/plugin-techdocs-backend": "^1.10.7",
     "app": "link:../app",
@@ -47,7 +47,7 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "@backstage/cli": "^0.27.0",
+    "@backstage/cli": "^0.28.0",
     "@types/express": "^5.0.0",
     "@types/express-serve-static-core": "^5.0.0",
     "@types/luxon": "^3.0.0"
