@@ -7823,9 +7823,9 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^2.5.26":
-  version "2.5.31"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.5.31.tgz#6d58bf2721103d715d7b499d9c17fc235b9293c8"
-  integrity sha512-pg8ct+9AieQ9YoB4hYB41SkvyE2W5yzjymcO2hAX1bWwbErvzwIYA8QLSUgy74i3taogW5zM9Av7vLqTVf6XaQ==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.6.0.tgz#65b541744808cb1a4e9b35d2d74b70befbd1f5f8"
+  integrity sha512-03eMdl5C/C7wpwcexFpuLUgYvc9ASAerEzUxbUWP9SBBh7CJimRm0JsQ9dPwutT2+TCZ32239FlW4jYrPImTyg==
   dependencies:
     "@backstage/catalog-model" "^1.6.0"
     "@backstage/core-components" "^0.14.10"
