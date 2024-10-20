@@ -2156,14 +2156,14 @@
     to-fast-properties "^2.0.0"
 
 "@backstage-community/plugin-tech-radar@^0.7.4":
-  version "0.7.10"
-  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-0.7.10.tgz#267e6de3faa5452214e36f6374274fe02fd627cf"
-  integrity sha512-MUSubSTjguhjWGGDIv/MTb1oibd5hbavcvBORvbKWfcIByQiyN0rqQAEMvUQ+kdP8mJfHnxKpeIFFcMMqcLKPQ==
+  version "0.7.11"
+  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-0.7.11.tgz#8edc20d5208815505f3609f91fcc67b656ba6e65"
+  integrity sha512-wCJzB5dWBipdgsAbciLSJufAQwg+/t/ueJYmpk9WXkq++zbLJ4LGcyYQCKESiW0oDFpVugpse3r7v06bqlzyXQ==
   dependencies:
-    "@backstage/core-compat-api" "^0.3.0"
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/frontend-plugin-api" "^0.8.0"
+    "@backstage/core-compat-api" "^0.3.1"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
+    "@backstage/frontend-plugin-api" "^0.9.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
@@ -2778,17 +2778,6 @@
     "@backstage/version-bridge" "^1.0.8"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/core-compat-api@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.3.0.tgz#ec4f0da0cd683230867db23604a3eadf701da415"
-  integrity sha512-16CXtzIYKu1ktDL1BJEPufpD3qLVnWONeBReWn6DzXUhv752ZEQ5bfYljNWn5j/M+h8pSkb/WaV8ggLT5cbZGQ==
-  dependencies:
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/frontend-plugin-api" "^0.8.0"
-    "@backstage/version-bridge" "^1.0.9"
-    "@types/react" "^16.13.1 || ^17.0.0"
-    lodash "^4.17.21"
-
 "@backstage/core-compat-api@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.3.1.tgz#fb7b8dbce339bc1aff0d1979066d6f0451ef885e"
@@ -2884,7 +2873,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.0", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3", "@backstage/core-plugin-api@^1.9.4":
+"@backstage/core-plugin-api@^1.10.0", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.0.tgz#84f578cd5708dafaea8f5eb6bdde6faa613d316c"
   integrity sha512-WidRpDgvjD9vde+VO2nTx3cG/rtmrFIxM4aszBcBYa/9weNw8q2LplI2+Mrc8O3MH2yBH8Ba66eDtaDF8fbFwQ==
@@ -2956,21 +2945,6 @@
     "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.8"
-    "@material-ui/core" "^4.12.4"
-    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
-    lodash "^4.17.21"
-    zod "^3.22.4"
-    zod-to-json-schema "^3.21.4"
-
-"@backstage/frontend-plugin-api@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.8.0.tgz#ebb3806063b49d16d240e63f2bf6cd1c6d55119d"
-  integrity sha512-LpxR2K58XVZPc4IWdsYa2l8JL6R2nX/52WmIs4kaOvLGXqiMWs78Ih+QXoDkPYnAhktygOFfHszyt1zA2y0GxQ==
-  dependencies:
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/types" "^1.1.1"
-    "@backstage/version-bridge" "^1.0.9"
     "@material-ui/core" "^4.12.4"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     lodash "^4.17.21"
@@ -4639,13 +4613,6 @@
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.8.tgz#c6664708bcd20744e7b2c440a03f1e44f7c4a2a1"
   integrity sha512-f4u5YEq/+TLe/W4UnsiD8u15qcuyFx2tuO/RDrJ2c/ulm4TuSeEcupMs7b9oa2Pge5IQAISadz0em1c+VDIB+g==
-  dependencies:
-    "@types/react" "^16.13.1 || ^17.0.0"
-
-"@backstage/version-bridge@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.9.tgz#1369e168dce806422134c3bafb9da5bad4776e49"
-  integrity sha512-UqTBxKgNK5HyVzlyVOESd+9J26rF/OJeTrOMrTiReJMGKf8DUCLNDJ7+DbDxIPwSfl5wNbEBEyFAkk9iLK0OoQ==
   dependencies:
     "@types/react" "^16.13.1 || ^17.0.0"
 
