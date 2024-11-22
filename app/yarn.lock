@@ -3221,9 +3221,9 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.4.0":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.4.1.tgz#f795c47d579dc1f5596c5f1bb3d246685c6e9d24"
-  integrity sha512-JhBb3QzRv6SV9LHwcFmgDo7Kut/WKbsbJ9ejgertbgPMkOc6dfVYRYy3PRWScYzWAlrjj3pHo0uBfSpe/VWogA==
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.4.2.tgz#b49f02e544467431d7f699ee760c9a90b4312aa2"
+  integrity sha512-PBecyjGL9dEvu2q47xnkdoch0GpbUd1AEVTZ2CE1Fc4h7GiqokUgh0BmMOleTn4fIDRABaQMRnnRdfm9Q2eGgA==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
     "@backstage/backend-plugin-api" "^1.0.2"
