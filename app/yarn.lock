@@ -2382,7 +2382,7 @@
     yauzl "^3.0.0"
     yn "^4.0.0"
 
-"@backstage/backend-defaults@^0.5.0", "@backstage/backend-defaults@^0.5.3":
+"@backstage/backend-defaults@^0.5.0", "@backstage/backend-defaults@^0.5.2", "@backstage/backend-defaults@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.5.3.tgz#7e562d394ba4c9eac651e7b54593a4b4aefafe74"
   integrity sha512-pzXiwywWRi8CJfUQzbVwmVcxb7mDLtKOdNE1vjfoJUK29jDLyA4+FjBy/VkndTLiCHwPbtEVQ7eKCvt48EXQeQ==
@@ -2518,7 +2518,7 @@
     knex "^3.0.0"
     luxon "^3.0.0"
 
-"@backstage/backend-plugin-api@^1.0.2":
+"@backstage/backend-plugin-api@^1.0.1", "@backstage/backend-plugin-api@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-1.0.2.tgz#d0a17dbf66e32d7d56756bc7fd6ecd0fb854f40f"
   integrity sha512-XcTOx4ARR3JmV1y28jsi0SevQXxDF5KvOTn5D50G9XRIUnnlDMHiJjBg22kxDOZrckTlC7WWGuVe5LHnSTkcrA==
@@ -2554,7 +2554,7 @@
     uuid "^9.0.0"
     zod "^3.22.4"
 
-"@backstage/catalog-client@^1.8.0":
+"@backstage/catalog-client@^1.7.1", "@backstage/catalog-client@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.8.0.tgz#a618569abc552cadade18e29ce24e57ed0502fdc"
   integrity sha512-+0DPzVwkJCTxY28VvUH7yg2087/JSyGZ7iHHShI40HAbsCitd5woJnmYa+2O1B8PuJxFbAYoZesh4uARp58NKg==
@@ -3179,7 +3179,7 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/integration@^1.15.2":
+"@backstage/integration@^1.15.1", "@backstage/integration@^1.15.2":
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.2.tgz#2f534ab8f6cc1e686654fee99770c5018acdc491"
   integrity sha512-cCigk62u4Ikkr3J/APf0ZFpT5F7HCM/iT+hJh4n9a/ufipu945X5QfgO7odsTL5uG8YgzbU1xl25W/Z/PGuWIw==
@@ -3537,7 +3537,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-auth-node@^0.5.0", "@backstage/plugin-auth-node@^0.5.1", "@backstage/plugin-auth-node@^0.5.2", "@backstage/plugin-auth-node@^0.5.4":
+"@backstage/plugin-auth-node@^0.5.0", "@backstage/plugin-auth-node@^0.5.1", "@backstage/plugin-auth-node@^0.5.2", "@backstage/plugin-auth-node@^0.5.3", "@backstage/plugin-auth-node@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.5.4.tgz#77f1bd73a25b901dc6d888fb80b7edd477f35cb8"
   integrity sha512-XoKVmF1S9GrqdfSRsFUY9tnXB2bcuQJAVVrZzx7OUpY+O1ED/dFwAwxPtIrC1EkhoYvzM6IUCik8CR6k5fAJLA==
@@ -3572,7 +3572,7 @@
     "@material-ui/core" "^4.9.13"
     "@react-hookz/web" "^24.0.0"
 
-"@backstage/plugin-bitbucket-cloud-common@^0.2.25":
+"@backstage/plugin-bitbucket-cloud-common@^0.2.24", "@backstage/plugin-bitbucket-cloud-common@^0.2.25":
   version "0.2.25"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-bitbucket-cloud-common/-/plugin-bitbucket-cloud-common-0.2.25.tgz#5b9c2c75cd710f5e556b509228116d5565147aac"
   integrity sha512-NgXWNpdspY70zQs11QTirZUnyoxUbSB5fhFAlr5wknLn6APsNPXDMW7/fE36N+rmt40CZ1mcTbrxpUPe/ujuGw==
@@ -3603,7 +3603,7 @@
     node-fetch "^2.7.0"
     uuid "^11.0.0"
 
-"@backstage/plugin-catalog-backend-module-scaffolder-entity-model@^0.2.0", "@backstage/plugin-catalog-backend-module-scaffolder-entity-model@^0.2.2":
+"@backstage/plugin-catalog-backend-module-scaffolder-entity-model@^0.2.0", "@backstage/plugin-catalog-backend-module-scaffolder-entity-model@^0.2.1":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-scaffolder-entity-model/-/plugin-catalog-backend-module-scaffolder-entity-model-0.2.2.tgz#20a1f73d09af4cd35618ed71ae65e25d84fcde87"
   integrity sha512-QRKKHIM5O8PL4YeeJwdskdlAtAcrfwqg6fivm12F/9RZIZlCF6joLz9fKSyC1oOUKpvgLS5RQrTgLwZ7OaaQLg==
@@ -3714,7 +3714,7 @@
     react-use "^17.2.4"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-node@^1.14.0":
+"@backstage/plugin-catalog-node@^1.13.1", "@backstage/plugin-catalog-node@^1.14.0":
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.14.0.tgz#f0ae22d75cbfb92d3e6df361e3e46e427ad53185"
   integrity sha512-jJK+Hyz/kzp058uQTB9VLyeXeq3nmhsaFsjf0QI8hBk2wjY9POOKrd+fq+5S/CHG0q5ZX1KDRMq23HlYIYHtLA==
@@ -4022,7 +4022,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-node@^0.8.0", "@backstage/plugin-permission-node@^0.8.5":
+"@backstage/plugin-permission-node@^0.8.0", "@backstage/plugin-permission-node@^0.8.4", "@backstage/plugin-permission-node@^0.8.5":
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.8.5.tgz#51b73b1d580584476dd51fede729691673136848"
   integrity sha512-fj9y5Vb2GR8/u4ejhLUrozRnk8oQBb8I4XyOW2DAYkAyKA40OJMlVHvudY+13likb6TS0ByXSuhQWYSpQbUD3g==
@@ -4097,6 +4097,21 @@
     node-fetch "^2.7.0"
     yaml "^2.0.0"
 
+"@backstage/plugin-scaffolder-backend-module-bitbucket-cloud@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend-module-bitbucket-cloud/-/plugin-scaffolder-backend-module-bitbucket-cloud-0.2.3.tgz#f19b4a651c10cab55a706d623c2ca51426f3111b"
+  integrity sha512-ifYkhcTDJzSnFc37LHNvMXQkD1OYl7GpmOHOEvMpxxg5oMPyQIDhfx2RdffBqBZ7LyVUODHtV8bLYgrq0g0opw==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.0.2"
+    "@backstage/config" "^1.3.0"
+    "@backstage/errors" "^1.2.5"
+    "@backstage/integration" "^1.15.2"
+    "@backstage/plugin-bitbucket-cloud-common" "^0.2.25"
+    "@backstage/plugin-scaffolder-node" "^0.6.1"
+    fs-extra "^11.2.0"
+    node-fetch "^2.7.0"
+    yaml "^2.0.0"
+
 "@backstage/plugin-scaffolder-backend-module-bitbucket-server@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend-module-bitbucket-server/-/plugin-scaffolder-backend-module-bitbucket-server-0.2.2.tgz#ce8e502f50da14c5837394b612eeb0b47e9b1ff2"
@@ -4111,18 +4126,32 @@
     node-fetch "^2.7.0"
     yaml "^2.0.0"
 
-"@backstage/plugin-scaffolder-backend-module-bitbucket@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend-module-bitbucket/-/plugin-scaffolder-backend-module-bitbucket-0.3.3.tgz#1ff81a2d442b4740052e87f2f11f02e94bed9858"
-  integrity sha512-Phu7zVfXAO6s/EB9SRNNvSKp7jBcsLQI216diQKf9tm85dffhBy/JMuVu1uQb3+7MdFfsgx1fX06CznnXp0oMw==
+"@backstage/plugin-scaffolder-backend-module-bitbucket-server@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend-module-bitbucket-server/-/plugin-scaffolder-backend-module-bitbucket-server-0.2.3.tgz#4f6cec05e874449929328ddf17fb70a3c966fe31"
+  integrity sha512-8+XlQuSB4/eCiRgXOWGBI5QgP/Cbc7jkoFMEzy/EnJLGqFFgh03NtUMb3GmEXUpXMfPqgnhTdOMHA9odGLTkbg==
   dependencies:
     "@backstage/backend-plugin-api" "^1.0.2"
     "@backstage/config" "^1.3.0"
     "@backstage/errors" "^1.2.5"
     "@backstage/integration" "^1.15.2"
-    "@backstage/plugin-scaffolder-backend-module-bitbucket-cloud" "^0.2.2"
-    "@backstage/plugin-scaffolder-backend-module-bitbucket-server" "^0.2.2"
-    "@backstage/plugin-scaffolder-node" "^0.6.0"
+    "@backstage/plugin-scaffolder-node" "^0.6.1"
+    fs-extra "^11.2.0"
+    node-fetch "^2.7.0"
+    yaml "^2.0.0"
+
+"@backstage/plugin-scaffolder-backend-module-bitbucket@^0.3.2":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend-module-bitbucket/-/plugin-scaffolder-backend-module-bitbucket-0.3.4.tgz#837fa7fc2b28cb3a13a650c626cb933d3002a2df"
+  integrity sha512-o/IJld4cmltq6k+CxHOCaRvxQ5O1KtHXH7d1lV8AgR52ttsJqmTzPgE6qVooedtYNVpeiyM+GCXsQjxnI34PMg==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.0.2"
+    "@backstage/config" "^1.3.0"
+    "@backstage/errors" "^1.2.5"
+    "@backstage/integration" "^1.15.2"
+    "@backstage/plugin-scaffolder-backend-module-bitbucket-cloud" "^0.2.3"
+    "@backstage/plugin-scaffolder-backend-module-bitbucket-server" "^0.2.3"
+    "@backstage/plugin-scaffolder-node" "^0.6.1"
     fs-extra "^11.2.0"
     node-fetch "^2.7.0"
     yaml "^2.0.0"
@@ -4192,35 +4221,35 @@
     zod "^3.22.4"
 
 "@backstage/plugin-scaffolder-backend@^1.22.10":
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.27.1.tgz#ca4fef421161fc7e554e23059ec21ca9e92a494a"
-  integrity sha512-ztcRCYeHJvf7WctUdH5X3C39wrxbwrMOotPmRLAoDFoVsTmOso88eIeo2ftqIkGhr98ChtqpI98VZyXNo4FMjQ==
+  version "1.26.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.26.3.tgz#2e7e85c3f195501f41731e4f8d505e9e409a2a5f"
+  integrity sha512-tFWzRnU/KKsrM83DOO6qH8TMh/8krEdb+x29yCYcyxpVVlsDNomq9yjMOUr3NiUGcQAOxPWDqKa/SIFMU7WDxg==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-defaults" "^0.5.3"
-    "@backstage/backend-plugin-api" "^1.0.2"
-    "@backstage/catalog-client" "^1.8.0"
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/config" "^1.3.0"
-    "@backstage/errors" "^1.2.5"
-    "@backstage/integration" "^1.15.2"
-    "@backstage/plugin-auth-node" "^0.5.4"
-    "@backstage/plugin-bitbucket-cloud-common" "^0.2.25"
-    "@backstage/plugin-catalog-backend-module-scaffolder-entity-model" "^0.2.2"
-    "@backstage/plugin-catalog-node" "^1.14.0"
-    "@backstage/plugin-permission-common" "^0.8.2"
-    "@backstage/plugin-permission-node" "^0.8.5"
+    "@backstage/backend-defaults" "^0.5.2"
+    "@backstage/backend-plugin-api" "^1.0.1"
+    "@backstage/catalog-client" "^1.7.1"
+    "@backstage/catalog-model" "^1.7.0"
+    "@backstage/config" "^1.2.0"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/integration" "^1.15.1"
+    "@backstage/plugin-auth-node" "^0.5.3"
+    "@backstage/plugin-bitbucket-cloud-common" "^0.2.24"
+    "@backstage/plugin-catalog-backend-module-scaffolder-entity-model" "^0.2.1"
+    "@backstage/plugin-catalog-node" "^1.13.1"
+    "@backstage/plugin-permission-common" "^0.8.1"
+    "@backstage/plugin-permission-node" "^0.8.4"
     "@backstage/plugin-scaffolder-backend-module-azure" "^0.2.2"
-    "@backstage/plugin-scaffolder-backend-module-bitbucket" "^0.3.3"
+    "@backstage/plugin-scaffolder-backend-module-bitbucket" "^0.3.2"
     "@backstage/plugin-scaffolder-backend-module-bitbucket-cloud" "^0.2.2"
     "@backstage/plugin-scaffolder-backend-module-bitbucket-server" "^0.2.2"
     "@backstage/plugin-scaffolder-backend-module-gerrit" "^0.2.2"
     "@backstage/plugin-scaffolder-backend-module-gitea" "^0.2.2"
     "@backstage/plugin-scaffolder-backend-module-github" "^0.5.2"
     "@backstage/plugin-scaffolder-backend-module-gitlab" "^0.6.1"
-    "@backstage/plugin-scaffolder-common" "^1.5.7"
-    "@backstage/plugin-scaffolder-node" "^0.6.0"
-    "@backstage/types" "^1.2.0"
+    "@backstage/plugin-scaffolder-common" "^1.5.6"
+    "@backstage/plugin-scaffolder-node" "^0.5.1"
+    "@backstage/types" "^1.1.1"
     "@opentelemetry/api" "^1.3.0"
     "@types/express" "^4.17.6"
     "@types/luxon" "^3.0.0"
@@ -4230,7 +4259,7 @@
     fs-extra "^11.2.0"
     globby "^11.0.0"
     isbinaryfile "^5.0.0"
-    isolated-vm "^5.0.1"
+    isolated-vm "^4.5.0"
     jsonschema "^1.2.6"
     knex "^3.0.0"
     lodash "^4.17.21"
@@ -4242,14 +4271,14 @@
     prom-client "^15.0.0"
     tar "^6.1.12"
     triple-beam "^1.4.1"
-    uuid "^11.0.0"
+    uuid "^9.0.0"
     winston "^3.2.1"
     winston-transport "^4.7.0"
     yaml "^2.0.0"
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-common@^1.5.7":
+"@backstage/plugin-scaffolder-common@^1.5.6", "@backstage/plugin-scaffolder-common@^1.5.7":
   version "1.5.7"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.5.7.tgz#49dc144699eef1ff2c1002f00b8d02207c7b2669"
   integrity sha512-hHtgXiFi6Fbta7rXHV/0jGB4Cguig33Qjah07ZPXp5wfz4aVvn3YYV/z8aezExxLtoqVYUpwn8PkasFh0opoPg==
@@ -4258,10 +4287,56 @@
     "@backstage/plugin-permission-common" "^0.8.2"
     "@backstage/types" "^1.2.0"
 
+"@backstage/plugin-scaffolder-node@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-node/-/plugin-scaffolder-node-0.5.1.tgz#e06c7dd010572beec2809f8b2fa1ecd20a7c23ad"
+  integrity sha512-m8QY65drHtROQFGMxYKr5eVY+vf+wbHSn1+t9v576EOTynpDxD5CozivqHhlMvRp87ebWzrSzh+7yL8/tym08w==
+  dependencies:
+    "@backstage/backend-common" "^0.25.0"
+    "@backstage/backend-plugin-api" "^1.0.1"
+    "@backstage/catalog-model" "^1.7.0"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/integration" "^1.15.1"
+    "@backstage/plugin-scaffolder-common" "^1.5.6"
+    "@backstage/types" "^1.1.1"
+    concat-stream "^2.0.0"
+    fs-extra "^11.2.0"
+    globby "^11.0.0"
+    isomorphic-git "^1.23.0"
+    jsonschema "^1.2.6"
+    p-limit "^3.1.0"
+    tar "^6.1.12"
+    winston "^3.2.1"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.20.4"
+
 "@backstage/plugin-scaffolder-node@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-node/-/plugin-scaffolder-node-0.6.0.tgz#d5771963809ad1cd79360929c046f598953c7f52"
   integrity sha512-zKGXw5V2yUVX1b4uQbTk2OEDChPl+m4oz5p6PQmxtNxdSbGCWXz1xXUjB2PlqXood8M1uOxxgZ17xKjtighaOA==
+  dependencies:
+    "@backstage/backend-common" "^0.25.0"
+    "@backstage/backend-plugin-api" "^1.0.2"
+    "@backstage/catalog-model" "^1.7.1"
+    "@backstage/errors" "^1.2.5"
+    "@backstage/integration" "^1.15.2"
+    "@backstage/plugin-scaffolder-common" "^1.5.7"
+    "@backstage/types" "^1.2.0"
+    concat-stream "^2.0.0"
+    fs-extra "^11.2.0"
+    globby "^11.0.0"
+    isomorphic-git "^1.23.0"
+    jsonschema "^1.2.6"
+    p-limit "^3.1.0"
+    tar "^6.1.12"
+    winston "^3.2.1"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.20.4"
+
+"@backstage/plugin-scaffolder-node@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-node/-/plugin-scaffolder-node-0.6.1.tgz#0a6186310e533f15bf4578171f4260164f3cb992"
+  integrity sha512-GjL/C1fESkCD/x5zwGhQ4JKZRakZTZ8lcbYvmd97IXcX7ZQHNcpDqew5fEBmCeTb+FDo0i9NNs8c5GOlzwZXQg==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
     "@backstage/backend-plugin-api" "^1.0.2"
@@ -17745,10 +17820,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
 
-isolated-vm@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/isolated-vm/-/isolated-vm-5.0.1.tgz#d87b12cf8889e351cb1598a4aeea00bb458bf20c"
-  integrity sha512-hs7+ff59Z2zDvavfcjuot/r1gm6Bmpt+GoZxmVfxUmXaX5scOvUq/Rnme+mUtSh5lW41hH8gAuvk/yTJDYO8Fg==
+isolated-vm@^4.5.0:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/isolated-vm/-/isolated-vm-4.7.2.tgz#5670d5cce1d92004f9b825bec5b0b11fc7501b65"
+  integrity sha512-JVEs5gzWObzZK5+OlBplCdYSpokMcdhLSs/xWYYxmYWVfOOFF4oZJsYh7E/FmfX8e7gMioXMpMMeEyX1afuKrg==
   dependencies:
     prebuild-install "^7.1.1"
 
