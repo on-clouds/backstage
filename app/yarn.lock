@@ -2346,9 +2346,9 @@
     yn "^4.0.0"
 
 "@backstage/backend-defaults@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.6.0.tgz#ab0fca46d6f160411d1fe71eb7702603b93d090c"
-  integrity sha512-xXdz/Z8XCksuqL0HMRuvR1DfngO38Xcb61LKyFBeVeMP2nG23fOy11j1PRC5OAZckcnog8OI3//nrPq2uGG+0g==
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.6.1.tgz#ac17460f6eeba76a13a307e849f2bfb4c8f70a8a"
+  integrity sha512-A1s/fYHgFc9HjS5hdLf5hEM6y7U63zSXSCURAju4hmz6PKhMP23x+GGwaNjU4kb8+fw6wJdA/3+CXVCSaiGHZA==
   dependencies:
     "@aws-sdk/abort-controller" "^3.347.0"
     "@aws-sdk/client-codecommit" "^3.350.0"
@@ -2363,7 +2363,7 @@
     "@backstage/cli-common" "^0.1.15"
     "@backstage/cli-node" "^0.2.11"
     "@backstage/config" "^1.3.1"
-    "@backstage/config-loader" "^1.9.3"
+    "@backstage/config-loader" "^1.9.4"
     "@backstage/errors" "^1.2.6"
     "@backstage/integration" "^1.16.0"
     "@backstage/integration-aws-node" "^0.1.14"
@@ -2728,6 +2728,27 @@
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.9.3.tgz#0fe9ea981e46e5db7cb82724aa5b048e999dbc77"
   integrity sha512-U6mzR/PtjJlp4VDdhx1IEYuvz1iBfk05EDDiE7sxN08OQ73epTfwz4dhRRpbPDCxxULIM8XJ+iuOPMBQK0fbAg==
+  dependencies:
+    "@backstage/cli-common" "^0.1.15"
+    "@backstage/config" "^1.3.1"
+    "@backstage/errors" "^1.2.6"
+    "@backstage/types" "^1.2.0"
+    "@types/json-schema" "^7.0.6"
+    ajv "^8.10.0"
+    chokidar "^3.5.2"
+    fs-extra "^11.2.0"
+    json-schema "^0.4.0"
+    json-schema-merge-allof "^0.8.1"
+    json-schema-traverse "^1.0.0"
+    lodash "^4.17.21"
+    minimist "^1.2.5"
+    typescript-json-schema "^0.65.0"
+    yaml "^2.0.0"
+
+"@backstage/config-loader@^1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.9.4.tgz#eb01519cc59dfedfa4a29cb92c0d4911fee96784"
+  integrity sha512-uqFnJiJtVa2QVTT5fw8WVg9jJll1WehKWTwEVOKZYyMAuEotx/jtwZq+z3tFsWfP1MvPODy+PnSb4/bTDrZ2JA==
   dependencies:
     "@backstage/cli-common" "^0.1.15"
     "@backstage/config" "^1.3.1"
@@ -4269,9 +4290,9 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.21.0":
-  version "1.27.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.27.2.tgz#b2d1c21b7574b0dc705891ee009b16a97cc3588b"
-  integrity sha512-GAp0EcIkvxTl79WJFoIi01fKw8F8xOol5IUGFLCIUUGeYfLNWFA9ZDt5D9bf1hUnDgEVRemxCPPDTy0RZPywlA==
+  version "1.27.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.27.3.tgz#3366b6c23c0573ce4e7e1881e92fa4c67dae72dd"
+  integrity sha512-9kTXwb+e/+f064vW4godHi5idamNCmoyPrtWikdVp/+z7fUaE8zfaa71rQhONUEXd53QDm/jVSylQIJq6J4sjQ==
   dependencies:
     "@backstage/catalog-client" "^1.9.0"
     "@backstage/catalog-model" "^1.7.2"
