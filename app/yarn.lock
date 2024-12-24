@@ -2346,9 +2346,9 @@
     yn "^4.0.0"
 
 "@backstage/backend-defaults@^0.6.0":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.6.1.tgz#ac17460f6eeba76a13a307e849f2bfb4c8f70a8a"
-  integrity sha512-A1s/fYHgFc9HjS5hdLf5hEM6y7U63zSXSCURAju4hmz6PKhMP23x+GGwaNjU4kb8+fw6wJdA/3+CXVCSaiGHZA==
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.6.2.tgz#d853f1501b974bc169a2d00e8cbc92d2f03fe003"
+  integrity sha512-6RI8zIBxZnSnX2WPGCc9Ha0jhR9Plo0RWbP23TBfentk4hP/b4ge8cZ63SjlOL4vMSeDIgsahtu0mPxkVdZXng==
   dependencies:
     "@aws-sdk/abort-controller" "^3.347.0"
     "@aws-sdk/client-codecommit" "^3.350.0"
