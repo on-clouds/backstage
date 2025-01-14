@@ -44,7 +44,7 @@
     "@mui/icons-material": "^6.0.0",
     "@mui/material": "^6.0.0",
     "@roadiehq/backstage-plugin-github-insights": "^3.0.0",
-    "@roadiehq/backstage-plugin-github-pull-requests": "^2.5.26",
+    "@roadiehq/backstage-plugin-github-pull-requests": "^3.0.0",
     "history": "^5.0.0",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
