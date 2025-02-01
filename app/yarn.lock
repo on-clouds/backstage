@@ -2149,23 +2149,23 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
-"@backstage-community/plugin-tech-radar-common@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar-common/-/plugin-tech-radar-common-1.1.0.tgz#ce9786e2dc387ff19c7b58bcc2489d98f0486d70"
-  integrity sha512-USEDGtsPDGO/i6862KfhrJDyoImY/Gn6HnofZqheaz2NtHzZk2TbU4XR6jou6On3ltAjnDiZxyuKRZFw41h9/g==
+"@backstage-community/plugin-tech-radar-common@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar-common/-/plugin-tech-radar-common-1.2.0.tgz#5da250b302bbe23ce90f299ec9d5b1b6453569c0"
+  integrity sha512-tVu8JQuhtYbtIIBNzvsM9mNglaGCJW5+8V+X973x4/EEDEv7Rp6sarMt5MVzHzcoG4tyMn/9HCeHmHd7RzpBpA==
   dependencies:
     zod "^3.20.0"
 
 "@backstage-community/plugin-tech-radar@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-1.1.0.tgz#8b8750dde6cebb6b58a084860566238cd99ac03b"
-  integrity sha512-+D0xtPYjZZYgN78KwKWgITd+23+vp5seFN+4qnz5R4WumcYPc0iDirpzkNJ5D6lSbzh036DBls5hAh4OPZBdAQ==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-1.2.0.tgz#0ced32f04d431218f86ac94940f147e88554cd3a"
+  integrity sha512-DpSwKht8sQH89yi4whuW8OXhlVZUl7abvwd+RF4RMyt4R166xidCDdVCXlfqZjyTjsG/AwQggdcsPvaYlUg7QA==
   dependencies:
-    "@backstage-community/plugin-tech-radar-common" "^1.1.0"
-    "@backstage/core-compat-api" "^0.3.4"
-    "@backstage/core-components" "^0.16.2"
-    "@backstage/core-plugin-api" "^1.10.2"
-    "@backstage/frontend-plugin-api" "^0.9.3"
+    "@backstage-community/plugin-tech-radar-common" "^1.2.0"
+    "@backstage/core-compat-api" "^0.3.5"
+    "@backstage/core-components" "^0.16.3"
+    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/frontend-plugin-api" "^0.9.4"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
@@ -2848,6 +2848,16 @@
     "@backstage/version-bridge" "^1.0.10"
     lodash "^4.17.21"
 
+"@backstage/core-compat-api@^0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.3.5.tgz#6da048fd8f3b923dcbd136ddc6e05fc694420658"
+  integrity sha512-q4v9sD/81q2aer/oP0pjr5dm4CknYQclddPs6oFZXlSFrCGY1D8Q+wUsPn+KTkX7WRHGUb65L2gSCZiZgHapWQ==
+  dependencies:
+    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/frontend-plugin-api" "^0.9.4"
+    "@backstage/version-bridge" "^1.0.10"
+    lodash "^4.17.21"
+
 "@backstage/core-components@^0.14.4", "@backstage/core-components@^0.14.8":
   version "0.14.10"
   resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.14.10.tgz#944fe655220be8af9fde0deeafe16f9ce7fe1924"
@@ -2934,6 +2944,49 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
+"@backstage/core-components@^0.16.3":
+  version "0.16.3"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.16.3.tgz#3e0da7421c66580ff8e6f2ed08cf64ca4f7d4c38"
+  integrity sha512-B+A8bdWY57gMIyRrp8s9MIsQvJ0oaGAFHjKEjguQMkSq/kYVtr8MszNlaCsABPHyfXhY3eIrQnLCMZzj+70m2A==
+  dependencies:
+    "@backstage/config" "^1.3.2"
+    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/theme" "^0.6.3"
+    "@backstage/version-bridge" "^1.0.10"
+    "@date-io/core" "^1.3.13"
+    "@material-table/core" "^3.1.0"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.61"
+    "@react-hookz/web" "^24.0.0"
+    "@testing-library/react" "^16.0.0"
+    "@types/react-sparklines" "^1.7.0"
+    ansi-regex "^6.0.1"
+    classnames "^2.2.6"
+    d3-selection "^3.0.0"
+    d3-shape "^3.0.0"
+    d3-zoom "^3.0.0"
+    dagre "^0.8.5"
+    linkify-react "4.1.3"
+    linkifyjs "4.1.3"
+    lodash "^4.17.21"
+    pluralize "^8.0.0"
+    qs "^6.9.4"
+    rc-progress "3.5.1"
+    react-helmet "6.1.0"
+    react-hook-form "^7.12.2"
+    react-idle-timer "5.7.2"
+    react-markdown "^8.0.0"
+    react-sparklines "^1.7.0"
+    react-syntax-highlighter "^15.4.5"
+    react-use "^17.3.2"
+    react-virtualized-auto-sizer "^1.0.11"
+    react-window "^1.8.6"
+    remark-gfm "^3.0.1"
+    zen-observable "^0.10.0"
+    zod "^3.22.4"
+
 "@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.2", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.2.tgz#0cbf3a1e06fc1231bcab18e85140f161cb419b0f"
@@ -2942,6 +2995,17 @@
     "@backstage/config" "^1.3.1"
     "@backstage/errors" "^1.2.6"
     "@backstage/types" "^1.2.0"
+    "@backstage/version-bridge" "^1.0.10"
+    history "^5.0.0"
+
+"@backstage/core-plugin-api@^1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.3.tgz#232b3a19b574dd85ab146081bb587d03d871e9ef"
+  integrity sha512-Wxd9SGXOfpaQacHkzNVlBmDPtjKQJeUjZKrXgaoc3IDE5hnCViQprULLOmuBTtmDrgnGxKLKOKTe88c3nPggGQ==
+  dependencies:
+    "@backstage/config" "^1.3.2"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.10"
     history "^5.0.0"
 
@@ -3028,6 +3092,20 @@
     "@backstage/core-components" "^0.16.2"
     "@backstage/core-plugin-api" "^1.10.2"
     "@backstage/types" "^1.2.0"
+    "@backstage/version-bridge" "^1.0.10"
+    "@material-ui/core" "^4.12.4"
+    lodash "^4.17.21"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
+"@backstage/frontend-plugin-api@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.9.4.tgz#d25be97732482f820920c9014a04a2b51f7194db"
+  integrity sha512-TFMCTxf84VtWDlHu56mPjLAVs6TJcNF1BZ6PU9+YkXoX7J+lmqzazGKYEm0JtmltwWoP7za/rPI7c33oIPSL6Q==
+  dependencies:
+    "@backstage/core-components" "^0.16.3"
+    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.10"
     "@material-ui/core" "^4.12.4"
     lodash "^4.17.21"
