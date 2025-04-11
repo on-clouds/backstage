@@ -2180,9 +2180,9 @@
     zod "^3.20.0"
 
 "@backstage-community/plugin-tech-radar@^1.0.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-1.4.0.tgz#009ada811a0ed5da076ae7ff0ecd77ebbb2c0ab4"
-  integrity sha512-5wOE3EayuHv1U3C0DRDl03dbSBg8d4NWzjqSRnTP/8PPAfl5y0O7pkmIKXtHFIZSd6I55AXVEW1D1ThfTcO/9A==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@backstage-community/plugin-tech-radar/-/plugin-tech-radar-1.4.1.tgz#cb1e945dd2119fd5c42c5a0bcef20e00544cc4ea"
+  integrity sha512-67U8lydnRraFOQJ18dJcSGEyZjrgASccI/VdWbTf+9A7IekljesATeH5QtugveUdS8CwINtKhFCFJhtHJMulsw==
   dependencies:
     "@backstage-community/plugin-tech-radar-common" "^1.4.0"
     "@backstage/core-compat-api" "^0.4.0"
