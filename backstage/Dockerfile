@@ -42,7 +42,7 @@ COPY --from=packages --chown=node:node /app .
 RUN --mount=type=cache,target=/home/node/.cache/yarn,sharing=locked,uid=1000,gid=1000 \
     yarn install --immutable
 
-COPY --chown=node:node . .
+COPY --chown=node:node packages/backend .
 
 RUN yarn tsc
 RUN yarn --cwd packages/backend build
