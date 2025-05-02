@@ -81,6 +81,7 @@ jobs:
           platforms: linux/amd64
           context: ./backstage
           file: ./backstage/packages/backend/Dockerfile
+          target: production
           tags: |
             ${{ env.RELEASE_REGISTRY }}/${{ env.IMAGE_NAME }}:dev-${{ env.DATETIME }}
           build-args: |
@@ -132,6 +133,7 @@ jobs:
           context: ./backstage
           file: ./backstage/packages/backend/Dockerfile
           platforms: linux/amd64,linux/arm64
+          target: production
           tags: |
             ghcr.io/on-clouds/${{ env.IMAGE_NAME }}:dev-${{ env.DATETIME }}
           build-args: |
