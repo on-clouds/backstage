@@ -5,7 +5,10 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git ];
+  packages = [
+    pkgs.git
+    pkgs.docker-buildx
+  ];
 
   languages.javascript.enable = true;
   languages.javascript.yarn.enable = true;
