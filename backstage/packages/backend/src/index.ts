@@ -46,6 +46,8 @@ backend.add(
 
 // search plugin
 backend.add(import('@backstage/plugin-search-backend'));
+backend.add(import('@backstage/plugin-search-backend/alpha'));
+backend.add(import('@backstage-community/search-backend-module-adr'));
 
 // search engine
 // See https://backstage.io/docs/features/search/search-engines

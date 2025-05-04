@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@backstage-community/plugin-adr-backend": "^0.8.0",
+    "@backstage-community/search-backend-module-adr": "^0.5.1",
     "@backstage/backend-defaults": "backstage:^",
     "@backstage/config": "backstage:^",
     "@backstage/plugin-app-backend": "backstage:^",
