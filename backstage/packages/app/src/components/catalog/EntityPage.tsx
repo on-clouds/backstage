@@ -214,6 +214,10 @@ const serviceEntityPage = (
       </Grid>
     </EntityLayout.Route>
 
+    <EntityLayout.Route if={isAdrAvailable} path="/adrs" title="ADRs">
+      <EntityAdrContent />
+    </EntityLayout.Route>
+
     <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
     </EntityLayout.Route>
